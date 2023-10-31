@@ -2,31 +2,25 @@ import React from "react";
 
 import "../styles/Contact.css";
 
-import "react-toastify/dist/ReactToastify.css";
-
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import { BsFillEnvelopeAtFill } from "react-icons/bs";
 import { BsFillGeoAltFill } from "react-icons/bs";
 
 export default function Contact() {
+  const handleSubmit = () => {
+    alert("You will try to reach you...Thank you. ");
+  };
   return (
     <div>
       <h2>Get in Touch</h2>
-      <form className="cf">
-        <div className="half left cf">
-          <input type="text" placeholder="Name" name="user_name" />
-          <input type="email" placeholder="Email address" name="user_email" />
-        </div>
-        <div className="half right cf">
-          <textarea name="message" type="text" placeholder="Message"></textarea>
-        </div>
-        <button
-          type="submit"
-          id="input-submit"
-          onClick={() => alert("we will try to reach you..Thank you.")}
-        >
-          submit
-        </button>
+      <hr />
+      <form onSubmit={handleSubmit} className="formStyle">
+        <label htmlFor="html">Your query:</label>
+        <input type="text" placeholder="your query.." />
+        <label htmlFor="html">Email:</label>
+        <input type="text" placeholder="your email.." />
+
+        <button type="submit">submit</button>
       </form>
 
       <div className="contact-group">

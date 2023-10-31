@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
 html,
 body {
   background: #ffffff;
@@ -90,6 +89,23 @@ textarea {
   color: rgb(0, 0, 0);
   margin: 10px;
   align-content: center;
+}
+
+.formStyle {
+  display: block;
+
+  font-weight: bold;
+}
+
+label {
+  color: black;
+}
+
+button {
+  width: 80px;
+  background-color: rgb(128, 218, 218);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 700px) {
