@@ -84,6 +84,4 @@ Make sure you have the following software installed on your machine:
    The development server will compile the code and open the application in your default web browser. You can access the application at http://localhost:3000.
    ```
 
-[Visit the live website](https://react-landing-page-task.netlify.app/)
-
-
+# [Visit the live website](https://react-landing-page-task.netlify.app/)
