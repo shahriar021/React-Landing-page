@@ -2,7 +2,6 @@ import React from "react";
 
 import "../styles/Contact.css";
 
-import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
@@ -10,10 +9,6 @@ import { BsFillEnvelopeAtFill } from "react-icons/bs";
 import { BsFillGeoAltFill } from "react-icons/bs";
 
 export default function Contact() {
-  const handleContactButton = () => {
-    toast("successfully submitted!  ");
-  };
-
   return (
     <div>
       <h2>Get in Touch</h2>
@@ -25,13 +20,13 @@ export default function Contact() {
         <div className="half right cf">
           <textarea name="message" type="text" placeholder="Message"></textarea>
         </div>
-        <input
+        <button
           type="submit"
-          value="Submit"
           id="input-submit"
-          onClick={handleContactButton}
-        />
-        <ToastContainer />
+          onClick={() => alert("we will try to reach you..Thank you.")}
+        >
+          submit
+        </button>
       </form>
 
       <div className="contact-group">
