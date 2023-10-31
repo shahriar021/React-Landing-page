@@ -13,6 +13,10 @@ The Bangladeshit website leverages several libraries to enhance its functionalit
 - **AOS (Animate On Scroll) for Animation**: AOS is employed for smooth and eye-catching animations triggered on scroll. It adds a dynamic and engaging element to our website.
 
 - **React Reveal for Animation**: React Reveal is integrated to create stunning animations and reveal effects that captivate the audience. It adds an extra layer of interactivity and excitement to the user experience.
+---
+
+
+# [Visit the live website](https://react-landing-page-task.netlify.app/)
 
 ## Sections
 
@@ -85,3 +89,32 @@ Make sure you have the following software installed on your machine:
    ```
 
 # [Visit the live website](https://react-landing-page-task.netlify.app/)
+
+#### For responsiveness i have used media queries 
+
+```
+        @media screen and (max-width: 700px) {
+    .about-us-main {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+    }
+
+    @media screen and (max-width: 300px) {
+    .about-us-main {
+        margin: 0px 0px 0px 0px;
+    }
+    .about-img {
+        width: 100%;
+    }
+    }
+
+```
+So for tablet 700px and mobile 300 or somewhere 360px.
+
+
+
+
