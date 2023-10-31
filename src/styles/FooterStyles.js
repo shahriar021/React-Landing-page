@@ -3,7 +3,7 @@
 import styled from "styled-components";
 
 export const Box = styled.div`
-  padding: 1% 1.5%;
+  padding: 1% 3.5%;
   background: white;
 
   bottom: 0;
@@ -33,7 +33,7 @@ export const Column = styled.div`
 export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 40px;
 
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
