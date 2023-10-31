@@ -20,7 +20,9 @@ export default function Contact() {
         <label htmlFor="html">Email:</label>
         <input type="text" placeholder="your email.." />
 
-        <button type="submit">submit</button>
+        <button type="submit" disabled="true">
+          submit
+        </button>
       </form>
 
       <div className="contact-group">
