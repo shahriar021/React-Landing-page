@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# BangladeshIT Website Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the documentation for the Bangladeshit website. This README provides an overview of the website and its 8 main sections, as well as information on the libraries used in its development.
 
-## Available Scripts
+## Libraries Used
 
-In the project directory, you can run:
+The Bangladeshit website leverages several libraries to enhance its functionality and appearance. Here are the key libraries used:
 
-### `npm start`
+- **Material-UI**: We use Material-UI to create a beautiful and responsive user interface. Material-UI provides a rich set of components and theming options for a modern web experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React Bootstrap**: React Bootstrap is utilized for additional UI components and styling. It complements Material-UI to ensure a cohesive design across the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **AOS (Animate On Scroll) for Animation**: AOS is employed for smooth and eye-catching animations triggered on scroll. It adds a dynamic and engaging element to our website.
 
-### `npm test`
+- **React Reveal for Animation**: React Reveal is integrated to create stunning animations and reveal effects that captivate the audience. It adds an extra layer of interactivity and excitement to the user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sections
 
-### `npm run build`
+The Bangladeshit website is organized into 8 main sections. Each section serves a specific purpose or provides unique content. Below, you'll find a brief description of each section:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![images](./screenshots/Screenshot1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Here is a crausal,and bar chart to show the success for the it company.
 
-### `npm run eject`
+### About
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![images](./screenshots/Screenshot2.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### In this part there are history,mission and vision of this It company
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Services
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![images](./screenshots/Screenshot3.png)
 
-## Learn More
+### Feedback
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![images](./screenshots/Screenshot4.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Blog
 
-### Code Splitting
+![images](./screenshots/Screenshot5.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Jobs
 
-### Analyzing the Bundle Size
+![images](./screenshots/Screenshot6.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Contact
 
-### Making a Progressive Web App
+![images](./screenshots/Screenshot7.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Faq's
 
-### Advanced Configuration
+![images](./screenshots/Screenshot8.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To run this project on your local machine, you need to follow these steps:
 
-### Deployment
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Make sure you have the following software installed on your machine:
 
-### `npm run build` fails to minify
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) package manager
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/shahriar021/React-Landing-page.git
+
+   cd React-Landing-page
+
+   npm install
+
+   yarn install
+
+   npm start
+    # or
+   yarn start
+
+
+   The development server will compile the code and open the application in your default web browser. You can access the application at http://localhost:3000.
+   ```
+
+[Visit the live website](https://react-landing-page-task.netlify.app/)
+
+
