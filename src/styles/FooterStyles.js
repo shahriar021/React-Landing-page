@@ -3,7 +3,7 @@
 import styled from "styled-components";
 
 export const Box = styled.div`
-  padding: 1% 2.5%;
+  padding: 1% 1.5%;
   background: white;
 
   bottom: 0;
@@ -43,7 +43,7 @@ export const Row = styled.div`
 export const FooterLink = styled.a`
   color: black;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
 
   &:hover {
