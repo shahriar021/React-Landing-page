@@ -1,0 +1,27 @@
+.about-us-main {
+  margin: 0px 100px 0px 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .about-us-main {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .about-us-main {
+    margin: 0px 0px 0px 0px;
+  }
+  .about-img {
+    width: 100%;
+  }
+}
+
+
+
+
+
