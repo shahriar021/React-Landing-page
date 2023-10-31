@@ -43,7 +43,7 @@ export const Row = styled.div`
 export const FooterLink = styled.a`
   color: black;
   margin-bottom: 10px;
-  font-size: 10px;
+  font-size: 16px;
   text-decoration: none;
 
   &:hover {
